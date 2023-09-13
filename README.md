@@ -284,6 +284,9 @@ def patch_user(id: int, user: User):
 
 * Swagger UI is accessible at `http://localhost:8000/docs`
 
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/52bdeddd-207d-43d5-a2ee-62d0668e979b)
+
+
 ### Routes
 
 ### `GET /` 
@@ -296,6 +299,8 @@ def patch_user(id: int, user: User):
   "message": "Hello World"
 }
 ```
+
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/5453d636-9a75-4d15-ad29-66f0e7180842)
 
 ### `GET /items/{item_id}`
 
@@ -317,6 +322,8 @@ def patch_user(id: int, user: User):
   "message": "Item not found"
 }
 ```
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/3e8ec83a-f2fd-4029-a1f6-039c905f3324)
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/a1679d95-d0bd-44cc-a789-d218c70c9ab2)
 
 ### `POST /items/`
 
@@ -340,6 +347,8 @@ def patch_user(id: int, user: User):
 }
 ```
 
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/6ce2dd0a-9156-43f3-bfe7-e3669c21ade3)
+
 ### `PUT /items/{item_id}`
 
 * When we access the route `http://localhost:8000/items/{item_id}`, the function `update_item` is called.
@@ -362,6 +371,9 @@ def patch_user(id: int, user: User):
 }
 ```
 
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/7ba3900c-b352-4590-bc1a-d9f9d0255f9a)
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/5dc1c087-86fa-456d-bfb3-a2fc66392f7b)
+
 ### `DELETE /items/{item_id}`
 
 * When we access the route `http://localhost:8000/items/{item_id}`, the function `delete_item` is called.
@@ -383,3 +395,6 @@ def patch_user(id: int, user: User):
   "message": "Item not found"
 }
 ```
+
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/340af9e5-b29b-4cdc-9add-fa42bc2e1d0b)
+![image](https://github.com/vaishnav-mk/fastapi-tutorial/assets/84540554/d7884f39-4238-472e-b178-dadf2f81f5cb)
